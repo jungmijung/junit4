@@ -263,7 +263,6 @@
                 </executions>
             </plugin>
             
-            <!--  
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefireVersion}</version>
@@ -280,8 +279,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-            -->
-            
             <plugin>
                 <!--
                 This plugin can package the main artifact's sources (src/main/java)
