@@ -194,7 +194,6 @@
             
             <!-- 새로운 로직 -->
             
-            <!--  
             <plugin>
                 <groupId>com.google.code.maven-replacer-plugin</groupId>
                 <artifactId>replacer</artifactId>
@@ -216,7 +215,6 @@
                     <value>${project.version}</value>
                 </configuration>
             </plugin>
-            -->
             
             <plugin><!-- Using jdk 1.5.0_22, package-info.java files are compiled correctly. -->
                 <!--
@@ -270,6 +268,7 @@
                     <test>org/junit/tests/AllTests.java</test>
                     <useSystemClassLoader>true</useSystemClassLoader>
                     <enableAssertions>false</enableAssertions>
+                    <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
                 <dependencies>
                     <dependency>
