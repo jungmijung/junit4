@@ -19,7 +19,7 @@ public class Assert {
      */
     static public void assertTrue(String message, boolean condition) {
         if (!condition) {
-            fail(message);
+            fail(message);//
         }
     }
 
