@@ -10,7 +10,7 @@ public class Assert {
     /**
      * Protect constructor since it is a static only class
      */
-    protected Assert() {
+    protected Assert() { //
     }
 
     /**
