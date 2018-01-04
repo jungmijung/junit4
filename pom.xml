@@ -192,7 +192,7 @@
                 </executions>
             </plugin>
             
-            <!-- 새로운 로직 -->
+            <!-- 새로운 로직 추가-->
             
             <plugin>
                 <groupId>com.google.code.maven-replacer-plugin</groupId>
