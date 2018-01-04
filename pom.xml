@@ -489,7 +489,7 @@
         <profile>
             <id>junit-release</id>
             <!--
-            Signs all artifacts before deploying to Maven Central. aaa
+            Signs all artifacts before deploying to Maven Central. 
             -->
             <build>
                 <plugins>
