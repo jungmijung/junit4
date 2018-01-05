@@ -18,6 +18,7 @@ public class ActiveTestSuite extends TestSuite {
         //push test
         //push test
         //commit test
+      //commit and push test
     }
 
     public ActiveTestSuite(Class<? extends TestCase> theClass) {
